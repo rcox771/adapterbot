@@ -71,7 +71,7 @@ develop = false
 elasticsearch = "*"
 nltk = "*"
 numpy = "*"
-pexpect = "4.2.1"
+pexpect = "*"
 prettytable = "*"
 regex = "*"
 scikit-learn = "*"
@@ -81,9 +81,9 @@ tqdm = "*"
 
 [package.source]
 type = "git"
-url = "https://github.com/facebookresearch/DrQA.git"
+url = "https://github.com/rcox771/DrQA.git"
 reference = "master"
-resolved_reference = "6d7c1b7087b86cfe9bdf84a279adb58dceada3cd"
+resolved_reference = "76ef11ac1b8f477c444e91b6a3f9d03134a88417"
 
 [[package]]
 name = "elasticsearch"
@@ -289,7 +289,7 @@ pyparsing = ">=2.0.2"
 
 [[package]]
 name = "pexpect"
-version = "4.2.1"
+version = "4.8.0"
 description = "Pexpect allows easy control of interactive console applications."
 category = "main"
 optional = false
@@ -627,7 +627,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "79327eb7730b99edeac4add7a2d6fe0a12fcb42c83f594d78d1cf54e3ee1f759"
+content-hash = "132efa867fa9f92d6966735a8a544a1a487905beecec759e518c0bac54794628"
 
 [metadata.files]
 atomicwrites = [
@@ -801,8 +801,8 @@ packaging = [
     {file = "packaging-21.0.tar.gz", hash = "sha256:7dc96269f53a4ccec5c0670940a4281106dd0bb343f47b7471f779df49c2fbe7"},
 ]
 pexpect = [
-    {file = "pexpect-4.2.1-py2.py3-none-any.whl", hash = "sha256:f853b52afaf3b064d29854771e2db509ef80392509bde2dd7a6ecf2dfc3f0018"},
-    {file = "pexpect-4.2.1.tar.gz", hash = "sha256:3d132465a75b57aa818341c6521392a06cc660feb3988d7f1074f39bd23c9a92"},
+    {file = "pexpect-4.8.0-py2.py3-none-any.whl", hash = "sha256:0b48a55dcb3c05f3329815901ea4fc1537514d6ba867a152b581d69ae3710937"},
+    {file = "pexpect-4.8.0.tar.gz", hash = "sha256:fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c"},
 ]
 pluggy = [
     {file = "pluggy-1.0.0-py2.py3-none-any.whl", hash = "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"},
